@@ -1,0 +1,75 @@
+body   {
+    font: Arial, 16px, black;
+}
+a:link {
+  color: red;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:visited {
+  color: purple;
+}
+
+header h1 {
+  color: lime;
+}
+
+section > h1 {
+  color: coral;
+}
+
+h1::first-letter {
+  color: black;
+}
+
+p + p {
+  color: darkgoldenrod;
+}
+
+li ~ li {
+  color: deeppink;
+}
+
+h1, h2 {
+  font: 2em, #ddd;
+  text-shadow: 1px 2px 3px #666;
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+  color: coral;
+}
+
+.main {
+  text-align: justify;
+}
+
+p {
+  font-family: "Merriweather", sans-serif;
+  line-height: 1.5em;
+  text-indent: 0.8em;
+}
+
+div#quote {
+  font-style: italic;
+  letter-spacing: 2px;
+  color: darkcyan;
+}
+.last {
+    text-align: right;
+    color: red;
+}
+.wrong {
+    text-decoration: line-through;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.google {
+    font-family: "Merriweather", sans-serif;
+    font-size: 1.6em;
+    color: purple;
+}
